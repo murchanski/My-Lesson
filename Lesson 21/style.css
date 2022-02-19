@@ -1,0 +1,471 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Open+Sans:wght@400;600&family=Questrial&display=swap');
+
+*, ::before, ::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.menu--header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+}
+
+.menu--header a{
+    font-family: 'Questrial', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 19px;
+    text-align: center;
+    color: #616161;
+}
+
+.menu--header li{
+    margin-right: 70px;
+}
+
+.menu--header li:last-child{
+    margin-left: 0;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.li--header{
+    text-decoration: none;
+}
+
+.main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wellcome{
+    width: 1440px;
+    height: 490px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 14.37%, rgba(0, 0, 0, 0.8) 100%), url(img/maxresdefault\ \(1\)\ 2\ \(2\).png) center no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: white;
+}
+
+.p--wellcome{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    padding: 7px 20px 3px 20px;
+    margin-left: 195px;
+}
+
+.h1--wellcome{
+    margin-left: 195px;
+    white-space: pre-line;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    height: 220px;
+}
+
+.btn--wellcome a{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.btn--wellcome{
+    background: rgba(255, 255, 255, 0.25);
+    border-radius: 2px;
+    padding: 20px 85px;
+    margin-left: 195px;
+}
+
+.icon--wellcome{
+    margin-left: 195px;
+}
+
+.fa-circle{
+    width: 7px;
+    height: 7px;
+}
+
+.wellcome--2{
+    display: flex;
+    flex-direction: row;
+    width: 1440px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.icon--wellcome--2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 165px;
+}
+
+.icon--wellcome--2-2{
+    display: flex;
+    flex-direction: column;
+}
+
+.text--wellcome--2 p{
+    margin-bottom: 20px;
+}
+
+.txt--wellcome{
+    white-space: pre-line;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 66px;
+    color: #3D3D3D;
+}
+
+.text--wellcome--2 h2{
+    white-space: pre-line;
+    margin-bottom: 15px;
+}
+
+.icon--wellcome--2-2 img{
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.a-wel-1{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #BDBDBD;
+    text-decoration: none;
+    border-radius: 2px;
+    padding: 15px 45px;
+    margin-right: 30px;
+}
+
+.a-wel-2{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #969696;
+    text-decoration: none;
+    border: 1px solid #969696;
+    box-sizing: border-box;
+    border-radius: 2px;
+    padding: 15px 50px;
+}
+
+.nav--best{
+    display: flex;
+    flex-direction: row;
+}
+
+.icon--best{
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px;
+}
+
+.nav--best hr{
+    width: 237px;
+    background: #000000;
+    margin-left: 40px;
+    margin-right: 26px;
+}
+
+.nav--best h2{
+    margin-right: 50px;
+}
+
+.btn--best a{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #969696;
+    text-decoration: none;
+    border: 1px solid #969696;
+    box-sizing: border-box;
+    border-radius: 2px;
+    padding: 14px 35px;
+}
+
+.text-white{
+    width: 460px;
+    height: 450px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.6) 100%), url(img/01_Valamar-Dubrovnik-President-Beach-Night_Dean-Tosovic_Valamar_riviera_dd\ 1.png);
+    margin-right: 30px;
+}
+
+.text-white-2{
+    width: 460px;
+    height: 450px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.6) 100%), url(img/276398231\ 2.png);
+    margin-right: 30px;
+}
+
+.text-white-3{
+    width: 460px;
+    height: 450px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.6) 100%), url(img/c41c4172\ 1.png);
+    border-radius: 0px;
+}
+
+.card-title{
+    justify-content: flex-start;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center; 
+    color: #FFFFFF;
+    background: rgba(0, 0, 0, 0.35);
+    width: 195px;
+    height: 30px;
+}
+
+.fa-star{
+    color: yellow;
+}
+
+.card-text{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 34px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 30px;
+    white-space: pre-line;
+}
+
+.card-div-best{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 135px;
+}
+
+.card--best{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+.best_hotels{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav--actual{
+    display: flex;
+    flex-direction: row;
+}
+
+.nav--actual hr{
+    width: 340px;
+    background: #000000;
+    margin-left: 40px;
+    margin-right: 26px;
+}
+
+.btn--actual a{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #969696;
+    text-decoration: none;
+    border: 1px solid #969696;
+    box-sizing: border-box;
+    border-radius: 2px;
+    padding: 14px 35px;
+}
+
+.nav--actual h2{
+    margin-right: 55px;
+}
+
+.actual{
+    margin-top: 100px;
+}
+
+.actual--1{
+    width: 330px;
+    height: 480px;
+    margin-right: 30px;
+}
+
+.img--card--actual{
+    background: url(img/mandarina\ 2.png) no-repeat;
+    width: 330px;
+    height: 250px;
+    padding: 20px 0 0 0;
+}
+
+.txt--card--actual h5{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 34px;
+    text-transform: uppercase;
+    color: #323232;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    white-space: pre-line;
+}
+
+.txt--card--actual p{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #848484;
+    margin-left: 20px;
+}
+
+.bla{
+    width: 330px;
+}
+
+.hgvhv p{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 34px;
+    color: #DD4053;
+}
+
+.hgvhv h6{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+    color: #DD4053;
+    margin-left: 5px;
+}
+
+.hgvhv{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0;
+    height: 20px;
+    margin-left: 20px;
+}
+
+.mini_title{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: #C9C9C9;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.price--actual{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.text--card--actual{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    color: #3E3E3E;
+    white-space: pre-line;
+    margin-left: 45px;
+}
+
+.card--actual{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.img--card--actual--2{
+    background: url(img/1491655\ 1.png) no-repeat;
+    width: 330px;
+    height: 250px;
+    padding: 20px 0 0 0;
+}
+
+.txt--card--actual--2 h5{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 34px;
+    text-transform: uppercase;
+    color: #323232;
+    margin-left: 20px;
+    margin-top: 10px;
+    white-space: pre-line;
+}

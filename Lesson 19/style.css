@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.conteiner{
+    width: 944px;
+}
+
+header{
+    height: 250px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: #828282;
+    font-family: Gilroy-Bold;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.Home{
+    color: black;
+    font-family: Gilroy-Bold;
+    font-size: 18px;
+    line-height: 22px;
+}

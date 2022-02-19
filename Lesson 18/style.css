@@ -1,0 +1,18 @@
+.conteiner{
+    font-size: 50px;
+    color: blue;
+}
+
+.conteiner1{
+    font-size: 50px;
+    color: red;
+}
+
+.conteiner:hover, .conteiner1:hover{
+    font-size: 70px;
+    color: violet;
+    box-shadow: 10px 5px 5px rosybrown;
+    width: 85px;
+    padding: 5px;
+    border-radius: 10px;
+}

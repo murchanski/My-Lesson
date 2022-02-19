@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(247, 210, 215);
+}
+.conteyner div, .conteyner1 div{
+    border: 1px solid black;
+    padding: 5px;
+}
+.conteyner{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+}
+.Box1{
+    color: red;
+    flex: 1;
+    order: 1;
+}
+.Box2{ 
+    color: yellow;
+    flex: 1;
+    order: 2;
+}
+.Box3{ 
+    color: blue;
+    flex: 1;
+    order: 3;
+}
+.conteyner1{
+    display: flex;
+    justify-content: space-around;
+}
+.Box{
+    color: rgb(12, 158, 122);
+    flex-basis: 20%;
+}
