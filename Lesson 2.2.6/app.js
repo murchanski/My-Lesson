@@ -9,6 +9,15 @@ function addCard(){
 
     let title = document.querySelector('.card_title').value
     let text = document.querySelector('.card_text').value
+    //let cardNumber = 1
+
+    if (title.length == 0 || text.length == 0) return
+
+    if (title.length > 20 || text.length > 20) return
+
+    //if (cardNumber >= 0){
+    //    cardNumber = cardNumber++
+    //}
 
     let currentdate = new Date()
 
@@ -23,7 +32,9 @@ function addCard(){
         'date': date,
     }
 
-    let cardBlock = document.querySelector('div')
+    cardArr.push(card)
+
+    let cardBlock = document.createElement('div')
     cardBlock.classList.add('card')
     cardBlock.insertAdjacentHTML('beforeend', `
         <div class="crd_number">1</div>
@@ -37,6 +48,7 @@ function addCard(){
     let wrapper = document.querySelector('.wrapper')
     wrapper.insertAdjacentElement('beforeend', cardBlock)
     
+    //cardNumber = true
 }
 
 //cardArr.push(card)
