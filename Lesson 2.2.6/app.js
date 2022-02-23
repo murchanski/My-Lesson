@@ -3,21 +3,18 @@ let cardArr = [];
 
 createBtn.addEventListener('click', addCard)
 
-
+let cardNumber = 1
 
 function addCard(){
 
     let title = document.querySelector('.card_title').value
     let text = document.querySelector('.card_text').value
-    //let cardNumber = 1
-
+    
     if (title.length == 0 || text.length == 0) return
 
     if (title.length > 20 || text.length > 20) return
 
-    //if (cardNumber >= 0){
-    //    cardNumber = cardNumber++
-    //}
+    
 
     let currentdate = new Date()
 
@@ -37,7 +34,7 @@ function addCard(){
     let cardBlock = document.createElement('div')
     cardBlock.classList.add('card')
     cardBlock.insertAdjacentHTML('beforeend', `
-        <div class="crd_number">1</div>
+        <div class="crd_number">${cardNumber}</div>
         <div class="crd_info">
            <div class="card_title">${card.title}</div>
             <div class="card_text">${card.text}</div>
@@ -47,8 +44,11 @@ function addCard(){
 
     let wrapper = document.querySelector('.wrapper')
     wrapper.insertAdjacentElement('beforeend', cardBlock)
+
+    document.querySelector('.card_title').value = ''
+    document.querySelector('.card_text').value = ''
     
-    //cardNumber = true
+    cardNumber++
 }
 
 //cardArr.push(card)
